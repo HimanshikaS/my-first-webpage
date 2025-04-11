@@ -1,0 +1,92 @@
+/*  General Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(66, 164, 194);
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(255, 105, 180); /* Light pink hover */
+}
+
+/* Section Headings & Text */
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #aa4dc8; 
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/*  Button Styling */
+#first_but {
+    background-color: rgb(221, 134, 238);
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#first_but:hover {
+    background-color: rgb(198, 110, 212);
+    transform: scale(1.05);
+}
+
+/* Resume page specific styles */
+h1 {
+    font-size: 32px;
+    color: #aa4dc8;
+    margin-bottom: 20px;
+}
+
+#download-btn {
+    background-color: rgb(66, 164, 194);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 30px;
+}
+
+#download-btn:hover {
+    background-color: rgb(48, 138, 165);
+    transform: scale(1.05);
+}
+
+section {
+    margin: 20px 0;
+}
+
